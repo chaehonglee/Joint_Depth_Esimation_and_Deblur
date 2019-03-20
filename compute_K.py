@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def getHomography(im, fl, theta, trans, numP, v_k):
     """
     Generates possible Homography

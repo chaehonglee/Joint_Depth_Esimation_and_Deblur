@@ -1,9 +1,8 @@
 import time
 import numpy as np
-from project.compute_K import compute_KX
+from compute_K import compute_KX
 
 
-# FIXME
 # 1. Apply L0 smoothing on x (but do not alter x)
 # 2. Discard small values of alpha_i,k
 # 3. assign alpha_i,k to x_i and y_i

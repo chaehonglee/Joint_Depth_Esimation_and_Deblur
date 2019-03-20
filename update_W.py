@@ -2,7 +2,7 @@ from time import time
 import numpy as np
 from scipy.sparse.linalg import cg as conjugate_gradient
 
-from project.compute_K import compute_KX
+from compute_K import compute_KX
 
 
 # TODO: Add a smoothing term
