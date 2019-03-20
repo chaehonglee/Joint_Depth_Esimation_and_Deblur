@@ -10,12 +10,12 @@ import glob
 import numpy as np
 from skimage.io import imread, imsave
 
-from smoothing import bfilt
-from knn_matting import knn_matte
-from compute_K import getHomography
-from update_W import update_W
-from update_x import update_x
-from update_D import update_D
+from utils.smoothing import bfilt
+from utils.knn_matting import knn_matte
+from utils.compute_K import getHomography
+from utils.update_W import update_W
+from utils.update_x import update_x
+from utils.update_D import update_D
 
 if __name__ == '__main__':
 
